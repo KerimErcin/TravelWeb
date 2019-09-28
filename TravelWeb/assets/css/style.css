@@ -1,0 +1,419 @@
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+nav {
+    position: absolute !important;
+    width: 100% !important;
+}
+
+.nav-bg-gradiant {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.nav-link {
+    font-family: 'Montserrat', Courier, monospace;
+    font-weight: 700;
+    color: white !important;
+}
+
+.glass-card {
+    /* background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center; */
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    /* filter: blur(5px) brightness(1.1); */
+}
+
+.glass-tittle {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.glass-text {
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+.scroll-button {
+    background-image: url(../img/scroll-button.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 48px;
+    position: absolute;
+    bottom: -3px;
+    left: 46%;
+}
+
+/* Section 1 */
+
+.section1 {
+    height: 100%;
+}
+
+.section1-tittle {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section1-text {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 15px;
+}
+
+/* /Section 1 */
+
+/* Card */
+
+.card {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 13px !important;
+    width: 276px;
+    height: 386px;
+    overflow: hidden;
+}
+
+.card-tittle {
+    padding: 0px;
+}
+
+.profil-photo {
+    background-image: url(../img/profil/profil-photo-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70.500px;
+    height: 70.500px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.profil-photo-2 {
+    background-image: url(../img/profil/profil-photo-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70.500px;
+    height: 70.500px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.profil-photo-3 {
+    background-image: url(../img/profil/profil-photo-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70.500px;
+    height: 70.500px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.profil-photo-4 {
+    background-image: url(../img/profil/profil-photo-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70.500px;
+    height: 70.500px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.photo {
+    background-image: url(../img/card/manzara-1.png);
+    background-size: cover;
+    width: 260px;
+    height: 158px;
+    margin: auto;
+}
+
+.photo-2 {
+    background-image: url(../img/card/manzara-2.png);
+    background-size: cover;
+    width: 260px;
+    height: 158px;
+    margin: auto;
+}
+
+.photo-3 {
+    background-image: url(../img/card/manzara-3.png);
+    background-size: cover;
+    width: 260px;
+    height: 158px;
+    margin: auto;
+}
+
+.photo-4 {
+    background-image: url(../img/card/manzara-4.png);
+    background-size: cover;
+    width: 260px;
+    height: 158px;
+    margin: auto;
+}
+
+.card-subject-title {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-subject-content {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 12px;
+}
+
+.card-text-effect {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    z-index: 99;
+    margin-top: 25px;
+}
+
+/* /Card */
+
+.btn-primary {
+    background-color: #EF8019 !important;
+    border-color: #EF8019 !important;
+}
+
+.btn-primary:hover {
+    background-color: #BD6514 !important;
+    border-color: #BD6514 !important;
+}
+
+/* Section2 */
+
+.section2 {
+    background-image: url(../img/section2-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 384px;
+}
+
+/* /Section2 */
+
+/* Section3 */
+
+.section3 {
+    width: 100%;
+    height: 100%;
+}
+
+.section3-tittle {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section3-text {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 15px;
+}
+
+/* /Section3 */
+
+/* Firsat Card */
+
+.firsat-card {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 13px !important;
+    width: 262px;
+    height: 468.18px;
+    overflow: hidden;
+}
+
+.firsat-card-photo {
+    background-image: url(../img/card/firsat-1.png);
+    background-size: cover;
+    width: 271.779px;
+    height: 245px;
+}
+
+.firsat-card-tittle {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.firsat-card-purchase {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.firsat-card .btn-primary {
+    background-color: #FC4475 !important;
+    border-color: #FC4475 !important;
+}
+
+.firsat-card .btn-primary:hover {
+    background-color: #A82D4E !important;
+    border-color: #A82D4E !important;
+}
+
+.firsat-card-2 {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 13px !important;
+    width: 262px;
+    height: 468.18px;
+    overflow: hidden;
+}
+
+.firsat-card-photo-2 {
+    background-image: url(../img/card/firsat-2.png);
+    background-size: cover;
+    width: 271.779px;
+    height: 267px;
+}
+
+.firsat-card-tittle-2 {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.firsat-card-purchase-2 {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.firsat-card-2 .btn-primary {
+    background-color: #046A84 !important;
+    border-color: #046A84 !important;
+}
+
+.firsat-card-2 .btn-primary:hover {
+    background-color: #024658 !important;
+    border-color: #024658 !important;
+}
+
+.firsat-card-3 {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 13px !important;
+    width: 262px;
+    height: 468.18px;
+    overflow: hidden;
+}
+
+.firsat-card-photo-3 {
+    background-image: url(../img/card/firsat-3.png);
+    background-size: cover;
+    width: 271.779px;
+    height: 242px;
+}
+
+.firsat-card-tittle-3 {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.firsat-card-purchase-3 {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.firsat-card-3 .btn-primary {
+    background-color: #EFA128 !important;
+    border-color: #EFA128 !important;
+}
+
+.firsat-card-3 .btn-primary:hover {
+    background-color: #9F6B1A !important;
+    border-color: #9F6B1A !important;
+}
+
+/* /Firsat Card */
+
+.footer {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    width: 100%;
+    height: 615px;
+}
+
+.imza{
+    margin-top: 300px;
+}
+
+/* Media Query */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1368px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 1368px !important;
+    }
+    main {
+        width: 100%;
+        height: 100%;
+        padding-top: 200px;
+        background-image: url(../img/mobil-bg.jpg);
+        background-size: cover;
+        z-index: 100;
+    }
+    .glass-card {
+        /* background-image: url('../img/bg.jpg');
+        background-size: cover;
+        background-position: center; */
+        background-color: white;
+        padding: 10px 20px 10px 20px;
+        /* filter: blur(5px) brightness(1.1); */
+        margin-left: 20px;
+    }
+    .glass-tittle {
+        font-family: 'Montserrat', Courier, monospace;
+        font-size: 23px;
+        font-weight: 900;
+    }
+    .glass-text {
+        font-family: 'Montserrat', Courier, monospace;
+        font-size: 12px;
+    }
+    .scroll-button {
+        background-image: url(../img/scroll-button.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 132px;
+        height: 48px;
+        position: absolute;
+        bottom: -3px;
+        left: 32%;
+    }
+    .section1 {
+        height: auto;
+    }
+    .section3 {
+        height: auto;
+    }
+}
+
+/* /Media Query */
